@@ -15,8 +15,8 @@ https://nodejs.org/en/download/
 
 Then run the following commands in terminal:
 
-1. ``git clone https://github.com/juniorcines/Pancakeswap-Predition-V5-By-Onyx`` 
-2. ``cd Pancakeswap-Predition-V5-By-Onyx.git``
+1. ``git clone https://github.com/juangabriel95/Pancakeswap-Prediction-Bot-V6---Auto-Claim`` 
+2. ``cd Pancakeswap-Prediction-Bot-V6---Auto-Claim``
 3. ``npm i``
 
 ![enter image description here](/img/setup.jpg?raw=true)
