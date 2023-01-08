@@ -168,7 +168,7 @@ const strategy = async (minAcurracy, epoch) => {
 
   if(signals){ 
 
-  if (GLOBAL_CONFIG.ESTRATEGIAUSE == 'Standar' && signals.buy > signals.sell && percentage(signals.buy, signals.sell) > minAcurracy){
+  if (GLOBAL_CONFIG.ESTRATEGIAUSE == 'Standar' && signals.buy > signals.sell && percentage(signals.buy, signals.sell) >= minAcurracy){
 
   console.log(`
   ===============================================================
@@ -186,7 +186,7 @@ const strategy = async (minAcurracy, epoch) => {
         },
       ]);
 
-    }else if(GLOBAL_CONFIG.ESTRATEGIAUSE == 'Standar' && signals.sell > signals.buy && percentage(signals.sell, signals.buy) > minAcurracy){
+    }else if(GLOBAL_CONFIG.ESTRATEGIAUSE == 'Standar' && signals.sell > signals.buy && percentage(signals.sell, signals.buy) >= minAcurracy){
 
   console.log(`
   ===============================================================
@@ -204,7 +204,7 @@ const strategy = async (minAcurracy, epoch) => {
         },
       ]);
 
-    }else if(GLOBAL_CONFIG.ESTRATEGIAUSE == 'Avanzada' && bullTotalRond > bearTotalRond && signals.buy > signals.sell && percentage(signals.buy, signals.sell) > minAcurracy){
+    }else if(GLOBAL_CONFIG.ESTRATEGIAUSE == 'Avanzada' && bullTotalRond > bearTotalRond && signals.buy > signals.sell && percentage(signals.buy, signals.sell) >= minAcurracy){
  
   console.log(`
   ===============================================================
@@ -222,7 +222,7 @@ const strategy = async (minAcurracy, epoch) => {
         },
       ]);
 
-    }else if(GLOBAL_CONFIG.ESTRATEGIAUSE == 'Avanzada' && bearTotalRond > bullTotalRond && signals.sell > signals.buy && percentage(signals.sell, signals.buy) > minAcurracy){
+    }else if(GLOBAL_CONFIG.ESTRATEGIAUSE == 'Avanzada' && bearTotalRond > bullTotalRond && signals.sell > signals.buy && percentage(signals.sell, signals.buy) >= minAcurracy){
 
   console.log(`
   ===============================================================
