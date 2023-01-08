@@ -5,7 +5,7 @@ const GLOBAL_CONFIG_ONYX = {
 PHRASE: 'PHRASE/SEED HEREN', //Phrase :: P_K_ONYX
 accountIndex: 0, //0 = 1, 1=2 etc..
 PCS_ADDRESS: '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA', //Pancakeswap Contract Address
-RPC_WS_ONYX: 'wss://multi-damp-isle.bsc.discover.quiknode.pro/06c74f821ee746132a66503b0d3cc017f22ffd5f/', //Buy Websocket: https://t.me/Onyx095 25$ a month
+RPC_WS_ONYX: 'WSS: WEBSOCET HERE', //Buy Websocket: https://t.me/Onyx095 25$ a month
 };
 //CRYPTO CONFIG
 
